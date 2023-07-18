@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<header>Music Website</header>
+
+<body>
+    <!-- Control & Navigation -->
+    <div class="Navigation_Bar">
+        <section>
+            <a href="#">Home</a>
+        </section>
+        <section>
+            <a href="#">Search</a>
+        </section>
+        <section>
+            <a href="#">Profile</a>
+        </section>
+        <div id="Artists">
+            <img class="Artist_One" src="https://i.scdn.co/image/ab67616100005174581efa688945cbb092df1726">
+            <img class="Artist_Two" src="https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d">
+            <img class="Artist_Three" src="https://i.scdn.co/image/ab6761610000e5eb9e690225ad4445530612ccc9">
+            <img class="Artist_Four" src="https://i.scdn.co/image/ab67616d00001e0295cbf32dfa1664d613774364">
+            <img class="Artist_Five" src="https://i.scdn.co/image/ab6761610000e5ebbe936a26ceb9cbbdec7df15b">
+        </div>
+    </div>
+
+    <!-- Avril Lavigne description -->
+    <p>Avril Ramona Lavigne is a Canadian singer and songwriter. At age 16, she signed a two-album recording contract with Arista Records. <br> Her debut studio album, Let Go (2002), is the best-selling album of the 21st century by a Canadian artist.</p>
+
+<!-- Play/Pause Controller by Sam -->
+    <div class="music-bar-container">
+        <div class="album">
+            <img src="favicon_academy.ico" alt="SongCover">
+            <div class="stack">
+                <h3>Song</h3>
+                <h4>Artist</h4>
+            </div>
+        </div>
+        <div class="interact-buttons">
+            <input type="checkbox" class="toggle-play">
+            <i class="gg-play-backwards"></i>
+            <i class="gg-play-button-r"></i>
+            <i class="gg-play-pause-r"></i>
+            <i class="gg-play-forwards"></i>
+        </div>
+        <div class="music-progress">
+            <p>-1:14</p>
+            <input type="range" min="0" max="180" value="106" id="myRange">
+            <p>3:00</p>
+        </div>
+        <div class="volume-slider">
+            <i class="gg-volume"></i>
+            <input type="range" value="80" min="0" max="100" id="myVolume">
+        </div>
+    </div>
+
+
+</body>
+</html>
